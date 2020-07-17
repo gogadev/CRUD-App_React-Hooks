@@ -1,0 +1,36 @@
+.user-info {
+  width: 85vw;
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  gap: 0.3rem;
+  text-align: center;
+  margin: 0 auto;
+  background: whitesmoke;
+  border-top: 3px solid rgb(226, 226, 226);
+  border-bottom: 3px solid rgb(226, 226, 226);
+  padding: 0.2rem;
+}
+
+.list {
+  transform: skewX(-25deg);
+  letter-spacing: 2px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  width: 100%;
+  margin-left: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .list li {
+    font-size: 0.9rem;
+  }
+}
